@@ -1,0 +1,98 @@
+/** Color ref
+* Body: #0812A3
+* Hoodie: #FF0000
+* Blouson: #242424
+*/
+
+* { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #242424;
+    font-family: 'M PLUS Rounded 1c', 'Prompt';
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+#nav, #content, #footer {
+    padding: 20px 0;
+    margin: 10px auto;
+    width: 100%;
+}
+
+#nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#nav {
+    padding: 0;
+    background: #0812A3;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+#nav .nav-links {
+    overflow: hidden;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 20px 0;
+    color: #fff;
+    /* background: red; */
+    font-size: 20pt;
+    transition: all .2s ease-out;
+}
+
+#nav .nav-links:hover {
+    color: #f00;
+}
+
+#nav .nav-links:active {
+    color: #f00;
+}
+
+.card {
+    background: #0812a3;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 15pt;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+#footer {
+    /* align-self: flex-end; */
+    background: #0812a3;
+    color: #fff;
+    border: 1px solid;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#profile-pic {
+    border-radius: 50%;
+}
