@@ -24,24 +24,16 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 85%;
+    max-width: 250px;
     margin: 0 auto;
-}
-
-#nav, #content, #footer {
-    padding: 20px 0;
-    margin: 10px auto;
-    width: 100%;
 }
 
 #nav {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #nav {
-    padding: 0;
     background: #0812A3;
     color: #fff;
     border: 1px solid;
@@ -49,13 +41,12 @@ body {
 }
 
 #nav .nav-links {
-    overflow: hidden;
     text-decoration: none;
     margin: 0 10px;
     padding: 20px 0;
     color: #fff;
     /* background: red; */
-    font-size: 20pt;
+    font-size: 30pt;
     transition: all .2s ease-out;
 }
 
@@ -63,36 +54,6 @@ body {
     color: #f00;
 }
 
-#nav .nav-links:active {
-    color: #f00;
-}
-
-.card {
-    background: #0812a3;
-    color: #fff;
-    border: 1px solid;
-    border-radius: 4px;
-    padding: 10px 20px;
-    margin: 10px 0;
-}
-
-.card p {
-    font-size: 15pt;
-}
-
 .spacer {
     flex-grow: 1;
-}
-
-#footer {
-    /* align-self: flex-end; */
-    background: #0812a3;
-    color: #fff;
-    border: 1px solid;
-    border-radius: 4px;
-    text-align: center;
-}
-
-#profile-pic {
-    border-radius: 50%;
 }
